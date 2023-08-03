@@ -50,6 +50,6 @@ public class CsvLineParserTest
         var exception = Assert.Throws<Exception>(() => CsvLineParser.Parse(csvLines));
 
         // Assert
-        Assert.Equal ($"{ expectedMessagePrefix}: {csvLine}", exception.Message);
+        Assert.Equal ($"{expectedMessagePrefix}: {csvLine}", exception.Message);
     }
 }
