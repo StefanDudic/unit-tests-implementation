@@ -8,4 +8,4 @@ This repository is used to practice the implementation of unit tests in the proj
 Contain a logic to process the input from a "virtual" coffee machine and presents a total count of beverages made, summarized by a beverage type.
 
 ### WiredBrainCoffee.DataProcessor.Tests
-Contains unit tests to validate the application is working correctly.
+Contains unit tests to validate if the application is working correctly.
